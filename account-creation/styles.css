@@ -23,15 +23,16 @@ form {
 }
 
 .signup-input {
-  margin: 14px 0;
+  margin: 8px 0 14px;
 }
 
 .error {
   display: none;
-  /* display: inherit; */
   visibility: hidden;
-  /* visibility: visible; */
-  color: red;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: rgb(220, 47, 47);
 }
 
 #submit-btn {
