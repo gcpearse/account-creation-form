@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Novocastria Travel</h1>
+    <p>Welcome to Novocastria Travel! Please fill in the form below to create an account and get started.</p>
+  </header>
+  <div class="form-div">
+    <form>
+      <p id="form-header">Create Account</p>
+      <label for="first-name-input" class="signup-label">Please enter your first name:</label>
+      <input type="text" placeholder="First name..." name="first-name-input" class="signup-input" id="first-name-input">
+      <p class="error">First name must be capitalised.</p>
+      <label for="surname-input" class="signup-label">Please enter your surname:</label>
+      <input type="text" placeholder="Surname..." name="surname-input" class="signup-input" id="surname-input">
+      <p class="error">Surname must be capitalised.</p>
+      <label for="username-input" class="signup-label">Please enter a username (8-20 characters):</label>
+      <input type="text" placeholder="Username..." name="username-input" class="signup-input" id="username-input">
+      <p class="error">Username must be between 8 and 20 characters long.</p>
+      <label for="email-input" class="signup-label">Please enter your e-mail address:</label>
+      <input type="email" placeholder="Email address..." name="email-input" class="signup-input" id="email-input">
+      <p class="error">Please enter a valid email address.</p>
+      <button id="submit-btn">Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>
