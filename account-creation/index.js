@@ -39,7 +39,7 @@ const validateSurname = (event) => {
 };
 
 const validateUsername = (event) => {
-  const usernameRegex = /^[\w]+$/;
+  const usernameRegex = /^[\w]+$/g;
   const username = event.target.value;
   if (username.length >= 8 && username.length <= 20 && usernameRegex.test(username)) {
     usernameError.style.display = "none";
