@@ -16,19 +16,22 @@
     <p>Please fill in the form below to create an account and get started.</p>
   </header>
   <div class="form-div">
-    <form>
+    <form id="signup-form" method="get" action="/user-profile/index.html">
       <p id="form-header">Create Account</p>
       <label for="first-name-input" class="signup-label">Please enter your first name:</label>
-      <input type="text" placeholder="First name..." name="first-name-input" class="signup-input" id="first-name-input" required>
+      <input type="text" placeholder="First name..." name="first-name-input" class="signup-input" id="first-name-input"
+        required>
       <p class="error" id="first-name-error"></p>
       <label for="surname-input" class="signup-label">Please enter your surname:</label>
       <input type="text" placeholder="Surname..." name="surname-input" class="signup-input" id="surname-input" required>
       <p class="error" id="surname-error"></p>
       <label for="username-input" class="signup-label">Please enter a username (8-20 characters):</label>
-      <input type="text" placeholder="Username..." name="username-input" class="signup-input" id="username-input" minlength="8", maxlength="20" required>
+      <input type="text" placeholder="Username..." name="username-input" class="signup-input" id="username-input"
+        minlength="8" , maxlength="20" required>
       <p class="error" id="username-error"></p>
       <label for="email-input" class="signup-label">Please enter your e-mail address:</label>
-      <input type="email" placeholder="Email address..." name="email-input" class="signup-input" id="email-input" required>
+      <input type="email" placeholder="Email address..." name="email-input" class="signup-input" id="email-input"
+        required>
       <p class="error" id="email-error"></p>
       <button id="submit-btn">Submit</button>
     </form>
