@@ -6,14 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Create Account</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Skranji:wght@400;700&display=swap"
+    rel="stylesheet">
   <script src="index.js" defer></script>
 </head>
 
 <body>
   <header>
-    <h1>Novocastria Travel</h1>
-    <p>Welcome to Novocastria Travel!</p>
-    <p>Please fill in the form below to create an account and get started.</p>
+    <div class="hero">
+      <img src="/images/rainforest.jpg" alt="A rainforest landscape" id="hero-img">
+      <h1 id="company-name">Blue Macaw Rainforest Tours</h1>
+      <p class="welcome-msg">Welcome to Blue Macaw Rainforest Tours!</p>
+      <p class="welcome-msg" id="form-fill-msg">Please fill in the form below to create an account and get started.</p>
+    </div>
   </header>
   <div class="form-div">
     <form id="signup-form" method="get" action="/user-profile/index.html">
@@ -29,7 +37,7 @@
       <input type="text" placeholder="Username..." name="username-input" class="signup-input" id="username-input"
         minlength="8" , maxlength="20" required>
       <p class="error" id="username-error"></p>
-      <label for="email-input" class="signup-label">Please enter your e-mail address:</label>
+      <label for="email-input" class="signup-label">Please enter your email address:</label>
       <input type="email" placeholder="Email address..." name="email-input" class="signup-input" id="email-input"
         required>
       <p class="error" id="email-error"></p>
