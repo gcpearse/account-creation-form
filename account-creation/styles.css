@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 16px;
+  max-width: 300px;
+  text-align: start;
+}
+
+#form-header {
+  margin: 2px 0 14px 0;
+  text-align: center;
+}
+
+.signup-label {
+  margin: 2px 0;
+}
+
+.signup-input {
+  margin: 14px 0;
+}
+
+.error {
+  display: none;
+  /* display: inherit; */
+  visibility: hidden;
+  /* visibility: visible; */
+  color: red;
+}
+
+#submit-btn {
+  position: relative;
+  margin: 0.4em 30%;
+  padding: 4px 10px;
+}
