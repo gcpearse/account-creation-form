@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+}
+
+#user-profile {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-left: 16px;
+  max-width: 360px;
+}
+
+.cell {
+  flex: 0 0 50%;
+  text-align: start;
+}
