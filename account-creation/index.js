@@ -10,7 +10,7 @@ const usernameError = document.getElementById("username-error");
 const emailInput = document.getElementById("email-input");
 const emailError = document.getElementById("email-error");
 
-const signupForm = document.getElementById("signup=form");
+const signupForm = document.getElementById("signup-form");
 
 const validateFirstName = (event) => {
   const firstNameRegex = /^[A-Z]{1}[A-Za-z\s-]*$/g;
