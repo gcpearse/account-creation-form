@@ -6,7 +6,7 @@ This is a small project built with HTML, CSS and JavaScript, allowing a user to 
 
 Once the user has successfully submitted their information, they are taken to a new page to view their account details.
 
-This is a standalone mini project built to help me explore the DOM and basic CSS styling. It is not intended to serve as the basis for a larger application.
+This is a simple, standalone mini project to demonstrate DOM manipulation. It is not intended to serve as the basis for a larger application.
 
 ## Licence 
 
