@@ -6,24 +6,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Profile</title>
   <link rel="stylesheet" href="styles.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Skranji:wght@400;700&display=swap"
+    rel="stylesheet">
   <script src="index.js" defer></script>
 </head>
 
 <body>
   <header>
-    <h1>Blue Macaw Rainforest Tours</h1>
-    <p><span id="greeting"></span> Thank you for creating an account. Please check that the details below are correct.
-    </p>
+    <div class="hero">
+      <img src="/images/rainforest3.jpg" alt="A river meandering through the rainforest" id="hero-img">
+      <h1>Blue Macaw Rainforest Tours</h1>
+      <div id="hero-body">
+        <p id="greeting"></p>
+        <p class="hero-text">Welcome to Blue Macaw. Thank you for creating an account.</p>
+        <p class="hero-text">Please click <span id="bold-word">confirm</span> if the details you have provided<br> are correct, or <span id="bold-word">cancel</span> if there are any errors.</p>
+        <p class="hero-text">You will then be taken back to our homepage.</p>
+      </div>
+    </div>
   </header>
   <div id="user-profile">
-    <p class="cell">First name:</p>
-    <p class="cell" id="first-name-cell"></p>
-    <p class="cell">Surname:</p>
-    <p class="cell" id="surname-cell"></p>
-    <p class="cell">Username:</p>
-    <p class="cell" id="username-cell"></p>
-    <p class="cell">E-mail address:</p>
-    <p class="cell" id="email-cell"></p>
+    <p class="cell-container" id="profile-header">Your details</p>
+    <div class="cell-container" id="first-name-cell-container">
+      <p class="key-cell">First name:</p>
+      <p class="value-cell" id="first-name-cell"></p>
+    </div>
+    <div class="cell-container">
+      <p class="key-cell">Surname:</p>
+      <p class="value-cell" id="surname-cell"></p>
+    </div>
+    <div class="cell-container">
+      <p class="key-cell">Username:</p>
+      <p class="value-cell" id="username-cell"></p>
+    </div>
+    <div class="cell-container" id="email-cell-container">
+      <p class="key-cell">Email address:</p>
+      <p class="value-cell" id="email-cell"></p>
+    </div>
+    <button id="confirm-btn">Confirm</button>
+    <button id="cancel-btn">Cancel</button>
   </div>
 </body>
 
