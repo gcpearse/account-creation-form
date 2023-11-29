@@ -17,3 +17,11 @@ emailCell.innerText = email;
 
 const greeting = document.getElementById("greeting");
 greeting.innerText = `Hello, ${firstName} ${surname}!`;
+
+const buttons = document.querySelectorAll("button");
+
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    window.location.href = "../account-creation/index.html";
+  });
+});
