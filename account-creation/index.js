@@ -84,9 +84,9 @@ const handleFormSubmission = (event) => {
   if (!allInputsValid) event.preventDefault();
 };
 
-firstNameInput.addEventListener("keyup", validateFirstName);
-surnameInput.addEventListener("keyup", validateSurname);
-usernameInput.addEventListener("keyup", validateUsername);
-emailInput.addEventListener("keyup", validateEmail);
+firstNameInput.addEventListener("blur", validateFirstName);
+surnameInput.addEventListener("blur", validateSurname);
+usernameInput.addEventListener("blur", validateUsername);
+emailInput.addEventListener("blur", validateEmail);
 
 signupForm.addEventListener("submit", handleFormSubmission);
