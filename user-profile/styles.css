@@ -1,18 +1,130 @@
+* {
+  margin: 0px;
+  background: white;
+}
+
 body {
   text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #283618;
+}
+
+#hero-img {
+  margin-bottom: 1.5em;
+  border-bottom: 10px solid #222222;
+  max-height: 20vw;
+  min-width: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-family: skranji;
+  font-size: 40px;
+}
+
+#greeting {
+  font-family: skranji;
+  font-size: 20px;
+  margin-bottom: 1.4em;
+}
+
+#hero-body {
+  margin: 1.4em 8px;
+  font-size: 0.9em;
+}
+
+.hero-text {
+  margin: 0.6em auto;
+}
+
+#bold-word {
+  font-weight: bold;
 }
 
 #user-profile {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-  border: 2px solid black;
+  display: inline-block;
+  margin: 0.8em auto;
+  box-shadow: 0 0 8px 2px hsl(120, 10%, 60%);
+  border: 3px solid #283618;
   border-radius: 5px;
-  padding-left: 16px;
-  max-width: 360px;
+  padding: 0 1.2em 0.6em;
+  min-width: 210px;
+  width: max-content;
 }
 
-.cell {
-  flex: 0 0 50%;
+#profile-header {
+  font-family: skranji;
+  font-size: 1.2rem;
+  margin: 1em auto 0;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid #bc6c25;
+}
+
+.cell-container {
+  margin: 1.2em 0;
+}
+
+.key-cell,
+.value-cell {
+  margin: 0.6em auto;
   text-align: start;
+}
+
+.key-cell {
+  color: #222222;
+}
+
+.value-cell {
+  color: #606c38;
+  font-size: 0.9rem;
+}
+
+#first-name-cell-container {
+  margin-top: 0;
+}
+
+#email-cell-container {
+  margin-bottom: 0;
+}
+
+#user-profile,
+.cell-container,
+.key-cell,
+.value-cell {
+  background: #FEFAE0;
+}
+
+button {
+  margin: 1.4em auto;
+  border: 2px solid #283618;
+  border-radius: 10px;
+  padding: 4px 10px;
+  font-family: skranji;
+  font-size: 15px;
+  color: #283618;
+  width: 100px;
+}
+
+#confirm-btn {
+  margin-right: 0.4em;
+  background: #c7e075;
+}
+
+#cancel-btn {
+  margin-left: 0.4em;
+  background: #dda15e;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#confirm-btn:active {
+  background: #d8e4b1;
+  cursor: pointer;
+}
+
+#cancel-btn:active {
+  background: #e8cfb2;
+  cursor: pointer;
 }
