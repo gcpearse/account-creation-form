@@ -15,16 +15,18 @@ body {
 
 #hero-img {
   margin-bottom: 20px;
+  border-bottom: 20px groove #283618;
   max-height: 20vw;
   min-width: 100%;
 }
 
-.welcome-msg {
-  font-size: 19px;
+h1 {
+  font-size: 40px;
 }
 
-#company-name {
-  font-size: 40px;
+.welcome-msg {
+  margin-top: 22px;
+  font-size: 19px;
 }
 
 #form-fill-msg,
