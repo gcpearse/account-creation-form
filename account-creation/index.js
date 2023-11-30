@@ -4,13 +4,13 @@ const errors = [...document.getElementsByClassName("error")];
 const regExps = [
   /^[A-Z]{1}[A-Za-z\s-]*$/g,
   /^[A-Z]{1}[A-Za-z\s-]*$/g,
-  /^[\w]+$/g,
+  /^[\w]{8,20}$/g,
   /^(?!.*\.\.)(?!.*\.@)(?!.*@\.)[\w][^@]*@[^@]+\.{1}[^@]*[a-z]$/gi
 ];
 
 const errorMessages = [
-  "First name must be capitalised and only contain letters, spaces, or hyphens.",
-  "Surname must be capitalised and only contain letters, spaces, or hyphens.",
+  "First name must be capitalised and may only contain letters, spaces, or hyphens.",
+  "Surname must be capitalised and may only contain letters, spaces, or hyphens.",
   "Username must contain between 8 and 20 characters. Only letters, numbers and underscores are permitted.",
   "Invalid e-mail."
 ];
